@@ -9,6 +9,8 @@ alias lf="ls -F"
 alias ll="ls -la"
 alias du="du -h"
 alias df="df -h"
+alias vim="nvim"
+alias vi="nvim"
 
 # prompt settings
 set -g fish_prompt_pwd_dir_length 0
