@@ -1,6 +1,7 @@
 # environment variable 
 set -x PATH /opt/homebrew/bin /usr/local/bin /usr/local/sbin $PATH
 set -x GIT_PAGER "lv -c"
+set -x LSCOLOR "Gxfxcxdxbxegedabagacad"
 
 # alias
 alias la="ls -a"
