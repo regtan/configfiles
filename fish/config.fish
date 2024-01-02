@@ -1,6 +1,5 @@
 # environment variable 
-set -x PATH /usr/local/bin /usr/local/sbin ~/go/bin $PATH
-# set -x MANPATH /usr/local/man $MANPATH
+set -x PATH /opt/homebrew/bin /usr/local/bin /usr/local/sbin $PATH
 set -x GIT_PAGER "lv -c"
 
 # alias
