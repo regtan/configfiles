@@ -1,6 +1,6 @@
 function fish_prompt
     set --local last_status $status
-    printf '%s%s%s %s%s' (set_color brblue)$USER (set_color white)(echo -en "@") (set_color magenta)(prompt_hostname) (show_path) (show_status $last_status)
+    printf '%s%s%s %s%s' (set_color 33ff33)$USER (set_color white)(echo -en "@") (set_color magenta)(prompt_hostname) (show_path) (show_status $last_status)
 end
 
 function show_path
