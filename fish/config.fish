@@ -4,6 +4,9 @@ set -x GIT_PAGER "lv -c"
 set -x GIT_EDITOR "nvim"
 set -x LSCOLORS "Gxfxcxdxbxegedabagacad"
 
+# anyenv
+status --is-interactive; and source (anyenv init -|psub)
+
 # alias
 alias la="ls -a"
 alias lf="ls -F"
