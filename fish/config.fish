@@ -1,5 +1,5 @@
 # environment variable 
-set -x PATH /opt/homebrew/bin /usr/local/bin /usr/local/sbin $PATH
+set -x PATH /opt/homebrew/bin /opt/homebrew/opt/mysql-client/bin /usr/local/bin /usr/local/sbin $PATH
 set -x GIT_PAGER "lv -c"
 set -x GIT_EDITOR "nvim"
 set -x LSCOLORS "Gxfxcxdxbxegedabagacad"
