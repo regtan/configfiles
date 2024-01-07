@@ -1,5 +1,10 @@
+# path
+fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/opt/mysql-client/bin
+fish_add_path /usr/local/bin
+fish_add_path /usr/local/sbin
+
 # environment variable 
-set -x PATH /opt/homebrew/bin /opt/homebrew/opt/mysql-client/bin /usr/local/bin /usr/local/sbin $PATH
 set -x GIT_PAGER "lv -c"
 set -x GIT_EDITOR "nvim"
 set -x LSCOLORS "Gxfxcxdxbxegedabagacad"
