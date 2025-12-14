@@ -3,6 +3,7 @@ fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/opt/mysql-client/bin
 fish_add_path /usr/local/bin
 fish_add_path /usr/local/sbin
+fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
 
 # environment variable 
 set -x GIT_PAGER "lv -c"
